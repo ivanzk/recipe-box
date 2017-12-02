@@ -1,0 +1,25 @@
+.Header .Toolbar {
+  background-color: #E64A19 !important;
+  height: auto !important; }
+  .Header .Toolbar a {
+    color: #FFFFFF !important; }
+  .Header .Toolbar .ToolbarTitle {
+    display: flex;
+    align-items: center; }
+    .Header .Toolbar .ToolbarTitle a {
+      color: #FFFFFF;
+      font-size: 1.5rem; }
+  .Header .Toolbar .Icon {
+    height: 100% !important;
+    width: auto !important;
+    display: flex !important;
+    align-items: center !important; }
+    .Header .Toolbar .Icon svg {
+      width: 36px !important;
+      height: 36px  !important;
+      color: #FFFFFF !important; }
+
+@media only screen and (max-width: 575px) {
+  .Header .Toolbar .Icon svg {
+    width: 24px !important;
+    height: 24px  !important; } }

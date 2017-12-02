@@ -1,0 +1,52 @@
+@import './shared-styles.scss';
+
+.Header {
+	
+	.Toolbar {
+		background-color: $headerBgColor !important;
+		height: auto !important;
+//		padding-top: 16px !important;
+//		padding-bottom: 16px !important;
+		
+		a {
+			color: $textIconsColor !important;
+		}
+		
+		.ToolbarTitle {
+			display: flex;
+			align-items: center;
+			
+			a {
+				color: $textIconsColor;
+				font-size: 1.5rem;
+			}
+		}
+		
+		.Icon {
+			height: 100% !important;
+			width: auto !important;
+			display: flex !important;
+			align-items: center !important;
+			
+			svg {
+				width: 36px !important;
+				height: 36px  !important;
+				color: $textIconsColor !important;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: "575px") {
+	.Header {
+		.Toolbar {
+			.Icon {
+				svg {
+					width: 24px !important;
+					height: 24px  !important;
+				}
+			}
+		}
+	}
+}

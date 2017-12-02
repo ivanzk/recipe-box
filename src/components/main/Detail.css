@@ -1,0 +1,37 @@
+.Detail .Image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px; }
+
+.Detail .RecipeBox {
+  padding: 16px 16px;
+  background-color: #FFFFFF;
+  border: 2px solid #FF5722; }
+  .Detail .RecipeBox .Headline {
+    margin-left: 16px; }
+
+.Detail .RecipeNavbar {
+  background-color: #FF5722; }
+  .Detail .RecipeNavbar div > button {
+    margin-left: 8px !important;
+    margin-right: 8px !important; }
+  .Detail .RecipeNavbar svg {
+    color: #FFFFFF !important; }
+
+.Detail hr {
+  border: 1px solid #FFCCBC; }
+
+@media only screen and (max-width: 767px) {
+  .Detail .RecipeBox {
+    padding: 8px;
+    border: none; }
+  .Detail .Headline {
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 0px !important; }
+  .Detail h4 {
+    text-align: center; }
+  .Detail .RecipeNavbar div > button {
+    margin-left: 4px !important;
+    margin-right: 4px !important; } }

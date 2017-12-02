@@ -1,0 +1,68 @@
+.EditRecipe .row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.EditRecipe .col-12:first-child {
+  background-color: #FF5722;
+  color: #FFFFFF; }
+
+.EditRecipe .col-12:nth-child(2) {
+  padding-right: 0px; }
+
+.EditRecipe input, .EditRecipe textarea {
+  border-radius: 2px; }
+
+.EditRecipe input.is-valid, .EditRecipe textarea.is-valid {
+  border: 1px solid #FF5722; }
+
+.EditRecipe input:hover, .EditRecipe textarea:hover {
+  box-shadow: 0px 0px 2px 0px #FF5722; }
+
+.EditRecipe input.is-invalid, .EditRecipe textarea.is-invalid {
+  border: 1px solid #FF5722;
+  box-shadow: 0px 0px 8px 0px #FF5722 inset; }
+
+.EditRecipe input.is-invalid:hover, .EditRecipe textarea.is-invalid:hover {
+  border: 1px solid #FF5722;
+  box-shadow: 0px 0px 8px 1px #FF5722 inset; }
+
+.EditRecipe input.is-valid:focus, .EditRecipe textarea.is-valid:focus {
+  box-shadow: 0px 0px 2px 0px #FF5722; }
+
+.EditRecipe input.is-invalid:focus, .EditRecipe textarea.is-invalid:focus {
+  box-shadow: 0px 0px 8px 1px #FF5722 inset; }
+
+.EditRecipe .EditNavbar {
+  text-align: right; }
+  .EditRecipe .EditNavbar .RaisedButton {
+    margin-left: 16px; }
+  .EditRecipe .EditNavbar button {
+    min-width: 120px;
+    background-color: #FF5722 !important; }
+    .EditRecipe .EditNavbar button svg, .EditRecipe .EditNavbar button span {
+      color: #FFFFFF !important;
+      fill: #FFFFFF !important; }
+
+@media only screen and (min-width: 768px) {
+  .EditRecipe label {
+    text-align: right;
+    border-radius: 2px; } }
+
+@media only screen and (max-width: 767px) {
+  .EditRecipe {
+    margin: 8px; }
+    .EditRecipe .col-12:nth-child(2) {
+      padding: 0px; }
+    .EditRecipe form .row {
+      margin: 4px; }
+    .EditRecipe label {
+      border-radius: 0px; }
+    .EditRecipe input, .EditRecipe textarea {
+      border-radius: 0px;
+      box-shadow: none; }
+    .EditRecipe .EditNavbar {
+      text-align: center;
+      margin: 8px; }
+      .EditRecipe .EditNavbar .RaisedButton {
+        margin-left: 8px;
+        margin-right: 8px; } }

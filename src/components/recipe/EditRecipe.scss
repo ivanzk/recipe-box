@@ -1,0 +1,108 @@
+@import './shared-styles.scss';
+
+.EditRecipe {
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.col-12:first-child {
+		background-color: $primaryColor;
+		color: $textIconsColor;
+	}
+	
+	.col-12:nth-child(2) {
+		padding-right: 0px;
+	}
+	
+	input, textarea {
+		border-radius: 2px;
+	}
+	
+	input.is-valid, textarea.is-valid {
+		border: 1px solid $primaryColor;
+	}	
+	input:hover, textarea:hover {
+		box-shadow: 0px 0px 2px 0px $primaryColor;
+	}
+	
+	input.is-invalid, textarea.is-invalid {
+		border: 1px solid $primaryColor;
+		box-shadow: 0px 0px 8px 0px $primaryColor inset;
+	}
+	
+	input.is-invalid:hover, textarea.is-invalid:hover {
+		border: 1px solid $primaryColor;
+		box-shadow: 0px 0px 8px 1px $primaryColor inset;
+	}
+	
+	input.is-valid:focus, textarea.is-valid:focus {
+		box-shadow: 0px 0px 2px 0px $primaryColor;
+	}
+	
+	input.is-invalid:focus, textarea.is-invalid:focus {
+		box-shadow: 0px 0px 8px 1px $primaryColor inset;
+	}
+	
+	
+	.EditNavbar {
+		text-align: right;
+		
+		.RaisedButton {
+			margin-left: 16px;
+		}
+		
+		button {
+			min-width: 120px;
+			background-color: $primaryColor !important;
+
+			svg, span {
+				color: $textIconsColor !important;
+				fill: $textIconsColor !important;
+			}
+		}
+	}
+}
+
+
+@media only screen and (min-width: "768px") {
+	.EditRecipe {
+		label {
+			text-align: right;
+			border-radius: 2px;
+		}
+	}
+}
+
+
+@media only screen and (max-width: "767px") {
+	.EditRecipe {
+		margin: 8px;
+		.col-12:nth-child(2) {
+			padding: 0px;
+		}
+		
+		form .row {
+			margin: 4px;
+		}
+		
+		label {
+			border-radius: 0px;
+		}
+		
+		input, textarea {
+			border-radius: 0px;
+			box-shadow: none;
+		}
+		
+		.EditNavbar {
+			text-align: center;
+			margin: 8px;
+			
+			.RaisedButton {
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+		}
+	}
+}

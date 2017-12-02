@@ -1,0 +1,52 @@
+{
+	"recipes": [
+		{
+			"id": 0,
+			"title": "Roasted Red Potatoes",
+			"description": "Potatoes",
+			"imageSrc": "/images/potatoes.jpg",
+			"ingredients": "- 3 pounds small red new potatoes \n- halved 1/4 cup olive oil \n- 1 teaspoon Salt and freshly ground black pepper\n",
+			"recipe": "Adjust oven rack to lowest position and heat oven to 450 degrees. Toss potatoes with oil, salt and pepper. Arrange, cut side down, on a large lipped cookie sheet or jellyroll pan.\n\nRoast until tender and golden brown, about 30 minutes (check after 20 minutes). \n\nTransfer to a serving dish.\n"
+		},
+		{
+			"id": 1,
+			"title": "Chicken Sandwich",
+			"description": "Sandwich",
+			"imageSrc": "/images/sandwich.jpg",
+			"ingredients": "- 1 cooked chicken breast \n- 1 avocado \n- 1 tomato \n- black pepper \n- mayonnaise \n- 2 slives granary bread\n",
+			"recipe": "Cut the cooked chicken into long thin strips. Arrange on buttered granary bread. \n\nAdd similar sized strips of avocado, dot with mayonnaise, add thinly sliced tomato and grind black pepper over the sandwich. \n\nTop sandwich with another slice of buttered granary bread. You could use cooked prawns instead of chicken as an alternative.\n"
+		},
+		{
+			"id": 2,
+			"title": "Classic Pizza",
+			"description": "Pizza",
+			"imageSrc": "/images/pizza.jpg",
+			"ingredients": "- 1 platina cooked pizza crust \n- 1/2 cup Mozzarella cheese \n- 1/4 cup Parmesan cheese \n- 1/4 cup cheddar cheese \n- 1/2 cup sliced pepperoni \n- 1/2 cup lightly steamed mushrooms \n- 1/2 cup green pepper \n- 3/4 cup browned ground beef (spiced & crumbled)\n",
+			"recipe": "Lightly coat crust with tomato sauce. Arrange grated cheese over sauce.\nTop with pepperoni, mushrooms, cooked ground beef and green pepper.\n\nSpiced ground beef preparation - Brown meat with onion and garlic (1 clove). Use either minced garlic or garlic salt and any other herbs to your liking. Add pepper and a little salt to taste.\n\nBake in oven 10 - 15 minutes or until cheese has melted.\n"
+		},
+		{
+			"id": 3,
+			"title": "Spanish Omelet",
+			"description": "Omelet",
+			"imageSrc": "/images/omelet.jpg",
+			"ingredients": "- 10 eggs \n- 10 tb milk \n- 2 tb flour \n- salt and pepper to taste \n\n**Sauce or Filling** \n\n- 4 tb fat or oil \n- 2 lg onions, minced \n- 5 md green peppers, chopped \n- 4 md tomatoes, peeled and chopped \n- 1 c tomato puree\n",
+			"recipe": "**The Sauce**  \n\nFry the onion in the shortening, then add the peppers, tomatoes, and puree. Season with salt and pepper to taste. Simmer for 25 minutes. \n\n**The Omelet**  \n\nBeat the egg whites alone, then beat the yolks alone until thick and lemon color. Add salt, flour and milk to the yolks and mix. Then fold yolk mixture into the beaten whites. Make into 5 or 6 omelets, and fry then in the fat or oil, on both sides. Remove from the frying pan when a delicate brown on both sides and spread each omelet with the sauce and roll up. Pour what is left of the sauce over the rolled omelets before serving.\n"
+		},
+		{
+			"id": 4,
+			"title": "Banana Pancakes",
+			"description": "Pancakes",
+			"imageSrc": "/images/pancake.jpg",
+			"ingredients": "- 3 eggs \n- 300-450ml of milk \n- 45g plain flour \n- pinch of sugar \n- 2 bananas \n- margarine \n- syrup\n",
+			"recipe": "Put the eggs in a big bowl and whisk. \n\nAdd the milk and whisk again, then add the flour and whisk. \n\nPut a bit of the mixture in a non-stick pan with a little melted butter or oil and heat. Flip when it is crispy brown on the edge and put on a plate. \n\nChop the bananas in a diagonal shape so you get about 4 pieces from each banana. Heat the margarine in pan and fry them until they are brown on both sides. \n\nTo serve, place two pieces of banana in centre of a pancake. Put a dollop of syrup on top of the banana, roll up and serve.\n"
+		},
+		{
+			"id": 5,
+			"title": "Simple Cheese Omelet",
+			"description": "Omelet",
+			"imageSrc": "/images/omelet2.jpg",
+			"ingredients": "- 2 large free-range eggs\n- olive oil\n- 10 g Cheddar cheese\n",
+			"recipe": "Crack the eggs into a mixing bowl, season with a pinch of sea salt and black pepper, then beat well with a fork until fully combined.\n\nPlace a small non-stick frying pan on a low heat to warm up.\n\nGrate the cheese onto a board and set aside.\n\nAdd ½ tablespoon of oil to the hot pan, then carefully pour in the eggs.\n\nTilt the pan to spread them out evenly, using a fork to swirl the eggs around the pan a little.\n\nWhen the omelet begins to cook and firm up, but still has a little raw egg on top, sprinkle over the cheese.\n\nUsing a spatula, ease around the edges of the omelet, then fold it over in half.\n\nWhen it starts to turn golden brown underneath, remove the pan from the heat and slide the omelet onto a plate. Delicious with a tomato salad and wholemeal bread.\n"
+		}
+	]
+}

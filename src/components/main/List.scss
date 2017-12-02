@@ -1,0 +1,86 @@
+@import 'shared-styles.scss';
+
+.List {
+	
+	.RecipeBox {
+		margin: 0px 16px 16px 16px;
+		border-radius: 4px;
+		transition: $mui-transition;
+		
+		.Image {
+			height: 150px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 4px 4px 0px 0px;
+				transition: $mui-transition;
+			}
+		}
+		
+		.Headline {
+			padding-top: 8px;
+			padding-bottom: 8px;
+			text-align: center;
+			background-color: $primaryColor;
+			border-radius: 0px 0px 4px 4px;
+			
+			h1 {
+				color: $textIconsColor;
+				font-size: 1.5rem;
+			}
+			
+			h4 {
+				margin: 0px;
+				color: $textIconsColor !important;
+				font-size: 1.25rem;
+			}
+		}
+	}
+	
+	.RecipeBox:hover {
+		box-shadow: 0px 0px 2px 1px $primaryColor;
+		
+		.Image {
+			img {
+				filter: brightness(110%);
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: "767px") {
+	.List {
+		
+		.RecipeBox {
+			margin: 0px 8px 8px 8px;
+			
+			.row {
+				height: 100px;
+			}
+			
+			.Image {
+				height: 100%;
+				img {
+					border-radius: 4px 0px 0px 4px;
+				}
+			}
+			
+			.Headline {
+				height: 100%;
+				border-radius: 0px 4px 4px 0px;
+				overflow: auto;
+				
+				h1 {
+					font-size: 1.25rem;
+				}
+				
+				h4 {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+}
